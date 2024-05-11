@@ -8,14 +8,14 @@ Seminaari 1 - Testaus
 
 ### Sisällysluettelo
 
-[1. Johdanto](#johdanto)
-[2. Käytetyt tekniikat](#käytetyt-tekniikat)
-[2.1. Sanity check](#sanity-check)
-[3. AppUserRESTControllerin testaaminen](#appuserrestcontrollerin-testaaminen)
-[3.1. AppUser-luokan ja AppUserRepositoryn testaaminen](#appuser-luokan-ja-appuserrepositoryn-testaaminen)
-[4. ProjectRESTControllerin ja Project-luokan testaaminen](#projectrestcontrollerin-ja-project-luokan-testaaminen)
-[5. Ylitsepääsemättömät ongelmat](#ylitsepääsemättömät-ongelmat)
-[6. Pohdinta](#pohdinta)
+[1. Johdanto](#johdanto) </br>
+[2. Käytetyt tekniikat](#käytetyt-tekniikat) </br>
+[2.1. Sanity check](#sanity-check) </br>
+[3. AppUserRESTControllerin testaaminen](#appuserrestcontrollerin-testaaminen) </br>
+[3.1. AppUser-luokan ja AppUserRepositoryn testaaminen](#appuser-luokan-ja-appuserrepositoryn-testaaminen) </br>
+[4. ProjectRESTControllerin ja Project-luokan testaaminen](#projectrestcontrollerin-ja-project-luokan-testaaminen) </br>
+[5. Ylitsepääsemättömät ongelmat](#ylitsepääsemättömät-ongelmat) </br>
+[6. Pohdinta](#pohdinta) </br>
 
 ## Johdanto
 
