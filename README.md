@@ -183,8 +183,6 @@ Testien luomista projektille voisi vielä jatkaa, olisi mielenkiintoista yrittä
 
 ## Linkit
 
-[Video](https://haagahelia-my.sharepoint.com/:v:/g/personal/bha601_myy_haaga-helia_fi/EcoevH5wf_NPsJHTb7z-aFEBdSiCVQpTMmBryvTpQgiZ8A?e=D20iDX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
 [Ohjelmistoprojekti 2](https://github.com/jinblo/TimeManagement) 
 
 [Testit](https://github.com/jinblo/TimeManagement/tree/main/TimeManagementBE/src/test/java/TeamRed/TimeManagementBE)
