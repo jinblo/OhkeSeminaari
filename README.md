@@ -16,6 +16,7 @@ Seminaari 1 - Testaus
 [4. ProjectRESTControllerin ja Project-luokan testaaminen](#projectrestcontrollerin-ja-project-luokan-testaaminen) </br>
 [5. Ylitsepääsemättömät ongelmat](#ylitsepääsemättömät-ongelmat) </br>
 [6. Pohdinta](#pohdinta) </br>
+[7. Linkit](#linkit) </br>
 
 ## Johdanto
 
@@ -44,7 +45,7 @@ Kuva 1. AppUserControllerin, AppUserRepositoryn ja mock(AppUserRepository)n väl
 
 ### Sanity check
 
-Lähdin liikkeelle Spring Bootin [webtestausohjeen](https://spring.io/guides/gs/testing-web) avulla. Ensimmäisenä testasin applikaation käynnistymisen nopealla "sanity check" -testillä. 
+Lähdin liikkeelle Spring Bootin [webtestausohjeen](https://spring.io/guides/gs/testing-web) avulla. Ensimmäisenä testasin applikaation käynnistymisen nopealla ["sanity check"](https://github.com/jinblo/TimeManagement/blob/main/TimeManagementBE/src/test/java/TeamRed/TimeManagementBE/TimeManagementBeApplicationTests.java) -testillä. 
 
 ```
 @SpringBootTest
@@ -57,7 +58,7 @@ class TimeManagementBeApplicationTests {
 }
 ```
 
-Seuraavaksi testasin yhteyden toimivuuden HttpServerTestillä:
+Seuraavaksi testasin yhteyden toimivuuden [HttpServerTestillä](https://github.com/jinblo/TimeManagement/blob/main/TimeManagementBE/src/test/java/TeamRed/TimeManagementBE/HttpServerTest.java):
 
 ```
 @Test
@@ -178,4 +179,13 @@ En ollut aikaisemmin käyttänyt Mockitoa, ja muukin testaamisosaamiseni oli var
 Testien kehittäminen lisäsi myös omaa ymmärrystäni projektin toiminnasta, Ohjelmistoprojekti 2 -kurssilla keskityin enemmän frontendin kehittämiseen, ja monet backendin ratkaisut jäivät hieman epäselviksi. 
 
 Testien luomista projektille voisi vielä jatkaa, olisi mielenkiintoista yrittää saavuttaa 100% kattavuus koko projektille. Lisäksi suoritin testit vain kehitysympäristössä, joten olisi mielenkiintoista kokeilla testien suorittamista julkaisuympäristössä tai yrittää automatisoida testien ajaminen julkaisuputkeen.
+
+
+## Linkit
+
+[Video](https://haagahelia-my.sharepoint.com/:v:/g/personal/bha601_myy_haaga-helia_fi/EcoevH5wf_NPsJHTb7z-aFEBdSiCVQpTMmBryvTpQgiZ8A?e=D20iDX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+[Ohjelmistoprojekti 2](https://github.com/jinblo/TimeManagement) 
+
+[Testit](https://github.com/jinblo/TimeManagement/tree/main/TimeManagementBE/src/test/java/TeamRed/TimeManagementBE)
 
